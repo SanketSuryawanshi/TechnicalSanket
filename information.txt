@@ -1,0 +1,139 @@
+=====================================================================================================================================
+
+[$] Managing Files >>>> Git & GitHub 
+
+=====================================================================================================================================
+
+[1] Lets take an example >>> We Have python File >> Managing Instagram >>>
+
+[2] After some time we need to do some updation in that code due to some change In Instagram >>
+
+[3] But now our work is fine !!
+
+[4] But in future, I  think that previous code is good than this 
+
+=====================================================================================================================================
+
+[5] Managing Versions Of Files >>> Original >>  V1 | V2 | V3
+
+=====================================================================================================================================
+
+[6] We can keep multiple copies of files >> to handle this Versions >> 
+
+[7] Problem is to keep multiple Versions >> If Our File Size is 1GB >> Difficult to keep multiple Versions files (HHD ISSUES)
+
+=====================================================================================================================================
+
+[$] Doing all this things manulally >> Required lot of efforts 
+
+[8] So there is need of Version Control >> To handle the Version >> Timestamping Is Also Important.
+
+=====================================================================================================================================
+
+[$] Git >> It is nothing but Version Control System
+
+=====================================================================================================================================
+
+[$] Local Version Control System >> Take Help Of Database >> Keep Track Of Changes In Database & Rollback anytime 
+[$] CONS >> If System fails then there is no any backup 
+
+=====================================================================================================================================
+
+[$] Centralized Version Control System >>       One Centralized System >> PUSH | PULL >> Keep copies at Server |
+[$] We Can do Collaboration At a same time >>
+
+[$] If Server Crash >> ISSUES OF backup again >>
+
+=====================================================================================================================================
+
+[$] Distributed Version Control System >> [$] Files are present at each nodes PC (Each Copy Of Files) 
+
+[$] But this also create ISSUES of storage >> [$] It Stores only Changes
+[$] .github >> Stores the Versions Information
+
+=====================================================================================================================================
+
+[$] Commit >> Changes In Files >>>
+
+=====================================================================================================================================
+
+[$] Git    >> Version Control System 
+[$] Github >> Hosting Git Files 
+
+=====================================================================================================================================
+
+[$] Fork >> Keep Copy Of that code >> In our respositery >>
+
+=====================================================================================================================================
+
+[$] Register username to Git >>> Terminal >>> git config --global user.name 'Technical Sanket'
+
+[$] Register email to Git >>> Terminal >>> git config --global user.email 'suryawanshisanket69@gmail.com'
+
+[$] To Edit >>> git config --global --edit 
+
+[$] git init >>> Intialise the respositery >>>
+   
+[$] git status >> Status Of Repositery >>> Red Means We are not Tracking >>>
+
+[$] To Tracking >> Take them to Staging area >> After that they will start Tracking >>> git add filename >> git add . 
+
+[$] Commit these files >>> git commit -m 'First Commit'
+ 
+=====================================================================================================================================
+
+[$] Git Log >>> Log of files >>> Keep Track Of Versions & Historys
+
+=====================================================================================================================================
+
+[$] To See Previous Files >>>> Go Back To that Version >>>
+
+[$] git checkout token 
+[$] git checkout master  >>> To get back to Master >> 
+
+<<<<<<< HEAD
+=====================================================================================================================================
+
+[$] Master Branch >>> Main Work root direcotory
+
+[$] Friend >> Collaboration Work On Another Branch >>> After Done All >> Merge these Works to Master Branch >>
+
+[$] git branch >> to list out branches >>
+
+[$] git branch branch_name  >>> to create branch
+
+[$] git checkout branch_name >> Swithing branch
+
+[$] git merge branch_name >> merge changes >> 
+
+>>>>>>> report
+
+=====================================================================================================================================
+
+[$] .gitingnore  >>> To ignore the files from tracking >>>
+
+=====================================================================================================================================
+
+[$] go to GitHub >>> Create a New Repositery >>>
+
+[$] git remote add origin  link.git
+
+[$] git branch -M master
+
+[$] git push -u origin master
+
+=========================================================================================================================================
+
+[$] .gitignore >>> Dont Want to push Hidden Information >>
+
+[$] Staging Area >>> Files Will be Track Here 
+
+[$] Branching >> Segregating Code TO Managing Code >> 10-30 peoples are working >> Then How to Collaborate at same time so we can
+create any time of branch >> We Have Master Branch >> 
+
+[$] Files are not tracking >> So We need to add it to the Staging area >>
+
+[$] git add .  >>> Add all files >>> Take it to the Staging area >>
+
+==========================================================================================================================================
+
