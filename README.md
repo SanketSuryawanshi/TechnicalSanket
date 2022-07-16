@@ -1,2 +1,2 @@
 # TechnicalSanket
-All DSA Sheet Code ( DSA CHEATSHEET )
+All DSA Sheet Code 🔨 ( DSA CHEATSHEET ) 📑
